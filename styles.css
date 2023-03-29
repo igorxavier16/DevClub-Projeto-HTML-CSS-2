@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-menu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-menu {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+}
+
+.container-imagem {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+.container-right {
+    display: inline-block;
+    margin-left: 85px;
+    width: 700px;
+    height: 342px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    left: 801px;
+    top: 342px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    width: 493px;
+    height: 99px;
+    left: 801px;
+    top: 553px;
+}
+
+.link-button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 900px) {
+    /*.container {
+        overflow-y: auto;
+    }
+    */
+
+    header {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+    }
+
+    .container-item {
+        margin-top: 150px;
+    }
+
+    .button-menu {
+        margin-left: 400px;
+    }
+
+    .container-imagem {
+        position: absolute;
+        top: 550px;
+        margin: 0;
+
+    }
+
+    .container-imagem img {
+        width: 100%;
+    }
+
+    .container-right {
+        display: block;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-left {
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+
+    .link-menu {
+        display: none;
+    }
+
+    h1 {
+        font-weight: 700px;
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 40px;
+        width: 100%;
+        height: auto;
+    }
+
+    p {
+        width: 80%;
+        margin: 30px 60px;
+    }
+
+    a {
+        width: 100%;
+        margin: 20px 0px;
+       
+    }
+
+    
+
+}
